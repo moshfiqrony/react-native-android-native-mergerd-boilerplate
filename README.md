@@ -17,7 +17,7 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 ## How to add Anroid Native Activity
 1. Open the android folder with [Android Studio](https://developer.android.com/studio)
 2. Now create an empty activity eg. My one I named as **BasicModule**
-3. Now Extend *ReactContextBaseJavaModule* overrride and rearrange it all the required methods like bellow
+3. Now Extend **ReactContextBaseJavaModule** overrride and rearrange it all the required methods like bellow
 ```
 public class BasicModule extends ReactContextBaseJavaModule {
 
