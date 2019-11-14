@@ -47,7 +47,28 @@ public class BasicModule extends ReactContextBaseJavaModule {
 Your activity is now having a NavigationDrawer you can do whatever you need.
 
 4. Now goto **MyModulePackage.java** and add your actvity like this bellow
-```modules.add(new BasicModule(reactContext));```
+```java 
+modules.add(new BasicModule(reactContext));
+```
+**Full code is here**
+```java
+public class MyModulePackage implements ReactPackage {
+    @Nonnull
+    @Override
+    public List<NativeModule> createNativeModules(@Nonnull ReactApplicationContext reactContext) {
+        List <NativeModule> modules = new ArrayList();
+        modules.add(new BasicModule(reactContext));
+        //add more here
+        return modules;
+    }
+
+    @Nonnull
+    @Override
+    public List<ViewManager> createViewManagers(@Nonnull ReactApplicationContext reactContext) {
+        return Collections.emptyList();
+    }
+}
+```
 
 In this way add how many activities you need.
 
