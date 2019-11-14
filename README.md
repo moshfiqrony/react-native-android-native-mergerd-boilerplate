@@ -54,10 +54,10 @@ In this way add how many activities you need.
 ## How to use it in Reacti Native
 1. Import NativeModules
 ```javascript 
-import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';```
+import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';
+```
 2. Use it like 
-```NativeModules.MyModule.NavigateMe();```
-here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
+```NativeModules.MyModule.NavigateMe();``` here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
 
 Happy Coding
 
