@@ -51,7 +51,7 @@ Your activity is now having a NavigationDrawer you can do whatever you need.
 
 In this way add how many activities you need.
 
-## How to use it in Reacti Native
+## How to use it in React Native
 1. Import NativeModules
 ```javascript 
 import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';
