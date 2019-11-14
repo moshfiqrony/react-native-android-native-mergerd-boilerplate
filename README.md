@@ -16,7 +16,7 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 
 ## How to add Anroid Native Activity
 1. Open the android folder with [Android Studio](https://developer.android.com/studio)
-2. Now create an empty activity eg. My one I named as *BasicModule*
+2. Now create an empty activity eg. My one I named as **BasicModule**
 3. Now Extend *ReactContextBaseJavaModule* overrride and rearrange it all the required methods like bellow
 ```
 public class BasicModule extends ReactContextBaseJavaModule {
@@ -45,7 +45,7 @@ public class BasicModule extends ReactContextBaseJavaModule {
 }
 ```
 Your activity is now having a NavigationDrawer you can do whatever you need
-4. Now goto *MyModulePackage.java* and add your actvity like this bellow
+4. Now goto **MyModulePackage.java** and add your actvity like this bellow
 ```modules.add(new BasicModule(reactContext));```
 
 In this way add how many list activity you need.
@@ -55,7 +55,7 @@ In this way add how many list activity you need.
 ```import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';```
 2. Use it like 
 ```NativeModules.MyModule.NavigateMe();```
-here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity *BasicModule*
+here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
 
 Happy Coding
 
