@@ -49,13 +49,15 @@ Your activity is now having a NavigationDrawer you can do whatever you need.
 4. Now goto **MyModulePackage.java** and add your actvity like this bellow
 ```modules.add(new BasicModule(reactContext));```
 
-In this way add how many list activity you need.
+In this way add how many activities you need.
 
 ## How to use it in Reacti Native
 1. Import NativeModules
-```javascript import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';```
+```javascript 
+import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';```
 2. Use it like 
-```javascirpt NativeModules.MyModule.NavigateMe();```
+```javascirpt 
+NativeModules.MyModule.NavigateMe();```
 here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
 
 Happy Coding
