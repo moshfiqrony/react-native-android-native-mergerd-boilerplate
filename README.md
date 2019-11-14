@@ -59,7 +59,8 @@ import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';
 2. Use it like 
 ```javascript 
 NativeModules.MyModule.NavigateMe();
-``` here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
+```
+here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
 
 Happy Coding
 
