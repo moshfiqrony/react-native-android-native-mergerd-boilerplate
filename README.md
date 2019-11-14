@@ -44,7 +44,7 @@ public class BasicModule extends ReactContextBaseJavaModule {
     }
 }
 ```
-Your activity is now having a NavigationDrawer you can do whatever you need
+Your activity is now having a NavigationDrawer you can do whatever you need.
 4. Now goto **MyModulePackage.java** and add your actvity like this bellow
 ```modules.add(new BasicModule(reactContext));```
 
