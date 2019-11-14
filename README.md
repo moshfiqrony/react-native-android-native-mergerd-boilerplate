@@ -5,12 +5,19 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 
 # How to use the repo?
 1. Simply clone the repo or download it.
-2. Open the android folder with android studio
+2. Open the android folder with [Android Studio](https://developer.android.com/studio)
 3. Open the root folder with any IDE like 
-⋅⋅⋅[Visual Code](), 
-⋅⋅⋅[Pycharm](), 
-⋅⋅⋅[WebStorm](), 
-3. run ```npm install``` or ```yarn install``` from the root of the repo.
+[Visual Code](https://code.visualstudio.com/), 
+[Pycharm](https://www.jetbrains.com/pycharm/), 
+[WebStorm](https://www.jetbrains.com/webstorm/),
+4. run ```npm install``` or ```yarn install``` from the root of the repo.
+5. Now run ```npm start``` or ```yarn start``` from the root of the repo.
+
+
+#How to add Anroid Native Activity
+1. Open the android folder with [Android Studio](https://developer.android.com/studio)
+2. Now create an empty activity
+3. 
 
 
 This is a boiler plate of having multiple android activity in a React Native app
