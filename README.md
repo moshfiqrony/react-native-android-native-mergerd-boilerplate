@@ -62,6 +62,9 @@ NativeModules.MyModule.NavigateMe();
 ```
 here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity **BasicModule**
 
+Now whenever the code will call the function ```NavigateMe()``` it will activate the android native activity **Basic Module**
+
+
 Happy Coding
 
 
