@@ -50,7 +50,13 @@ Your activity is now having a NavigationDrawer you can do whatever you need
 
 In this way add how many list activity you need.
 
+## How to use it in Reacti Native
+1. Import NativeModules
+```import {StyleSheet, View, Text, Button, NativeModules} from 'react-native';```
+2. Use it like 
+```NativeModules.MyModule.NavigateMe();```
+here ```NavigateMe()``` is the ```@ReactMethod``` that we defined in our activity *BasicModule*
 
-This is a boiler plate of having multiple android activity in a React Native app
+Happy Coding
 
 
