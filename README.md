@@ -17,7 +17,7 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 [Pycharm](https://www.jetbrains.com/pycharm/), 
 [WebStorm](https://www.jetbrains.com/webstorm/),
 4. run ```npm install``` or ```yarn install``` from the root of the repo.
-5. Now run ```npm start``` or ```yarn start``` from the root of the repo.
+5. Now run ```react-native run-android``` then run ```react-native start``` if you get any error like **debug.keystore** not found or SDK dir not found then.
 6. Create **local.properties** file inside android folder and write 
 
 ```sdk.dir = your sdk dir```
@@ -29,9 +29,9 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 
 for **debug.keystore** if needed and move it to **app** folder under **android** folder
 
-7. run ```react-native run-android```
+7. Finally run ```react-native run-android```
 
-8. run ```react-native start```
+8. And run ```react-native start```
 
 
 ## How to add Anroid Native Activity
