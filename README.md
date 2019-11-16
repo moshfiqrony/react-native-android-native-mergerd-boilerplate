@@ -9,6 +9,9 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 3. [Android Studio](https://developer.android.com/studio) installed and running.
 
 
+**for all kind of environment edit like adding path and installing node, restart your ide.
+
+
 ## How to use the repo?
 1. Simply clone the repo or download it.
 2. Open the android folder with [Android Studio](https://developer.android.com/studio)
@@ -34,6 +37,8 @@ for **debug.keystore** if needed and move it to **app** folder under **android**
 8. And run ```react-native start```
 
 9. if ```react-native start``` is giving Invalid regular expression invalid error check **node.js** version and install version **10**
+
+10. if adb is not found then add the path ```<YOUR_SDK_LOCATION>\platform-tools``` in environment variables
 
 
 ## How to add Android Native Activity
