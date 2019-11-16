@@ -28,6 +28,8 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 ```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```
 
 for **debug.keystore** if needed and move it to **app** folder under **android** folder
+7. run ```react-native run-android```
+8. run ```react-native start```
 
 
 ## How to add Anroid Native Activity
