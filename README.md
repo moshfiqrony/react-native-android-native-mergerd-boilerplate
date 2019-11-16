@@ -5,7 +5,8 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 
 ## Pre Environment or setup
 1. [JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or higher
-2. [Android Studio](https://developer.android.com/studio) installed and required sdk downloaded.
+2. JAVA_HOME path setup correctly.
+3. [Android Studio](https://developer.android.com/studio) installed and running.
 
 
 ## How to use the repo?
@@ -17,6 +18,8 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 [WebStorm](https://www.jetbrains.com/webstorm/),
 4. run ```npm install``` or ```yarn install``` from the root of the repo.
 5. Now run ```npm start``` or ```yarn start``` from the root of the repo.
+6. run this command for debug.keystore if needed and move it to app folder under android folder
+```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```
 
 
 ## How to add Anroid Native Activity
