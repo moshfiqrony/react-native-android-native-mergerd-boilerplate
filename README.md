@@ -18,12 +18,18 @@ Unsing this repo you can add mutiple android native intent or acativity to your 
 [WebStorm](https://www.jetbrains.com/webstorm/),
 4. run ```npm install``` or ```yarn install``` from the root of the repo.
 5. Now run ```npm start``` or ```yarn start``` from the root of the repo.
+6. Create **local.properties** file inside android folder and write 
+
+```sdk.dir = your sdk dir```
+
+
 6. run this command 
 
 ```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```
 
-for debug.keystore if needed and move it to app folder under android folder
-```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```
+for **debug.keystore** if needed and move it to app folder under android folder
+
+7. 
 
 
 ## How to add Anroid Native Activity
