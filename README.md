@@ -33,6 +33,8 @@ for **debug.keystore** if needed and move it to **app** folder under **android**
 
 8. And run ```react-native start```
 
+9. if ```react-native start``` is giving Invalid regular expression invalid error check **node.js** version and install version **10**
+
 
 ## How to add Anroid Native Activity
 1. Open the android folder with [Android Studio](https://developer.android.com/studio)
