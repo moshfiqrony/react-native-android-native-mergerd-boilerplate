@@ -4,7 +4,7 @@ In this repo you can have a React Native app created by create-react-app command
 Unsing this repo you can add mutiple android native intent or acativity to your react native app. just simply open the android folder with your android studio and use the folder as your android native app and the root as your react native app
 
 ## Pre Environment or setup
-1. JDK 1.8 or higher
+1. [JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) or higher
 2. [Android Studio](https://developer.android.com/studio) installed and required sdk downloaded.
 
 
