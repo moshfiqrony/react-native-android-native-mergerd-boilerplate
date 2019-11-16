@@ -36,7 +36,7 @@ for **debug.keystore** if needed and move it to **app** folder under **android**
 9. if ```react-native start``` is giving Invalid regular expression invalid error check **node.js** version and install version **10**
 
 
-## How to add Anroid Native Activity
+## How to add Android Native Activity
 1. Open the android folder with [Android Studio](https://developer.android.com/studio)
 2. Now create an empty activity eg. My one I named as **BasicModule**
 3. Now Extend **ReactContextBaseJavaModule** overrride and rearrange it all the required methods like bellow
