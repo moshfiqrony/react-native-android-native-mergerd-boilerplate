@@ -26,19 +26,19 @@ Using this repo you can add multiple android native intent or activity to your r
 ```sdk.dir = your sdk dir```
 
 
-6. run this command 
+7. run this command 
 
 ```keytool -genkey -v -keystore debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000```
 
 for **debug.keystore** if needed and move it to **app** folder under **android** folder
 
-7. Finally run ```react-native run-android```
+8. Finally run ```react-native run-android```
 
-8. And run ```react-native start```
+9. And run ```react-native start```
 
-9. if ```react-native start``` is giving Invalid regular expression invalid error check **node.js** version and install version **10**
+10. if ```react-native start``` is giving Invalid regular expression invalid error check **node.js** version and install version **10**
 
-10. if adb is not found then add the path ```<YOUR_SDK_LOCATION>\platform-tools``` in environment variables
+11. if adb is not found then add the path ```<YOUR_SDK_LOCATION>\platform-tools``` in environment variables
 
 
 ## How to add Android Native Activity
