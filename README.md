@@ -1,6 +1,6 @@
 # React Native and Android Native merged boilerplate
 
-In this repo you can have a React Native app created by create-react-app command and a basic Android app.
+In this repo you can have a React Native app and a basic Android app.
 Using this repo you can add multiple android native intent or activity to your react native app. just simply open the android folder with your android studio and use the folder as your android native app and the root as your react native app
 
 ## Pre Environment or setup
